@@ -5,15 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trybewarts</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"> <!-- link do Fonts Awesome Icons -->
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <header class="header">
             <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo da Trybewarts na parte superior da página">
+            <h1 class="title is-2" id="trybewarts-header-title">Trybewarts</h1>
             <form action="" method="get" class="trybewarts-login">
-                <input class="input is-rounded" id="email" type="text" name="email" placeholder="Email">
-                <input class="input is-rounded" id="password" type="text" name="password" placeholder="Senha">
+                <!-- Estou usando a biblioteca do Bulma e os ícones do Fonts Awesome
+                     Link: https://bulma.io/documentation/form/input/ -->
+                <label for="email" class="control has-icons-left has-icons-right">
+                    <input class="input" id="email" type="email" name="email" placeholder="Email">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                </label>
+                <label for="password" class="control has-icons-left has-icons-right">
+                    <input class="input" id="password" type="password" name="password" placeholder="Senha">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </label>
                 <button class="button is-link" id="button">Entrar</button>
             </form>
         </header>

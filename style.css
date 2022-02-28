@@ -20,11 +20,19 @@
 .button.is-link {
   background-color: purple;
   border-color: transparent;
-  color: #fff;
+  color: white;
 }
 
-.button.is-link:hover, .button.is-link.is-hovered {
+.button.is-link:hover , .button.is-link.is-hovered {
   background-color: darkmagenta;
   border-color: transparent;
-  color: #fff;
+  color: white;
+}
+
+.title.is-2 {
+  color: white;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
