@@ -15,12 +15,14 @@
 
 .trybewarts-login {
   display: flex;
+  width: 28rem;
 }
 
 .button.is-link {
   background-color: purple;
   border-color: transparent;
   color: white;
+  margin-left: 5px;
 }
 
 .button.is-link:hover , .button.is-link.is-hovered {
@@ -31,8 +33,14 @@
 
 .title.is-2 {
   color: white;
+  margin: 0;
+}
+
+.control {
+  padding: 0 5px;
+}
+
+.evaluation-form {
   display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
+  width: 675px;
 }
