@@ -90,3 +90,23 @@ hr {
   display: flex;
 }
 
+.textarea {
+  padding: unset;
+  min-height: unset;
+  display: unset;
+  max-width: unset;
+  min-width: unset;
+  resize: unset;
+  background-color: unset;
+  border-color: unset;
+  border-radius: unset;
+  color: unset;
+  box-shadow: unset;
+  width: unset;
+  border: unset;
+}
+
+.textarea:not( [ rows ] ) {
+  max-height: unset;
+  min-height: unset;
+}
