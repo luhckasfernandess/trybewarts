@@ -3,6 +3,8 @@ const email = document.querySelector('#email');
 const password = document.querySelector('#password');
 const botaoEnviar = document.querySelector('#submit-btn');
 const termosDeUso = document.querySelector('#agreement');
+const textArea = document.querySelector('#textarea');
+const counter = document.querySelector('#counter');
 
 function validation() {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
@@ -18,5 +20,12 @@ function ativaObotao() {
   } else botaoEnviar.disabled = true;
 }
 
+function contador() {
+  counter.innerText = textArea.value.length - 501;
+  counter.innerText *= -1;
+  counter.innerText -= 1;
+}
+
 termosDeUso.addEventListener('click', ativaObotao);
 buttonLogin.addEventListener('click', validation);
+textArea.addEventListener('keyup', contador);
