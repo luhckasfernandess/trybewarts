@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trybewarts</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"> <!-- link do Fonts Awesome Icons -->
+        <!-- Scripts dos ícones do site https://ionic.io/ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
@@ -14,18 +16,21 @@
             <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo da Trybewarts na parte superior da página">
             <h1 class="title is-2" id="trybewarts-header-title">Trybewarts</h1>
             <form action="" method="get" class="trybewarts-login">
-                <!-- Estou usando a biblioteca do Bulma e os ícones do Fonts Awesome
-                     Link: https://bulma.io/documentation/form/input/ -->
+                <!-- 
+                    Estou usando a biblioteca do Bulma e os ícones do Ionicons
+                     Link: https://bulma.io/documentation/form/input/
+                     Link: https://ionic.io/ionicons 
+                -->
                 <label for="email" class="control has-icons-left has-icons-right">
                     <input class="input" id="email" type="email" name="email" placeholder="Email">
                     <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
+                        <ion-icon name="mail"></ion-icon>
                     </span>
                 </label>
                 <label for="password" class="control has-icons-left has-icons-right">
                     <input class="input" id="password" type="password" name="password" placeholder="Senha">
                     <span class="icon is-small is-left">
-                        <i class="fas fa-lock"></i>
+                        <ion-icon name="lock-closed"></ion-icon>
                     </span>
                 </label>
                 <button class="button is-link" id="button">Entrar</button>
@@ -35,17 +40,30 @@
         <main id="main-form">
             <form action="" method="get" id="evaluation-form">
                 <h1 class="title is-4">Formulário de Avaliação</h1>
-                <input type="text" class="input" id="input-name" placeholder="Nome">
-                <input type="text" class="input" id="input-lastname" placeholder="Sobrenome">
-                <input type="email" class="input" id="input-email" placeholder="Email">
-                <label for="house">Casa:
-                    <select name="house" id="house">
-                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-                    </select>
-                </label>
+                <!-- Name and Last name -->
+                <div id="name-lastname">
+                    <input type="text" class="input" id="input-name" placeholder="Nome">
+                    <input type="text" class="input" id="input-lastname" placeholder="Sobrenome">   
+                </div>
+                <!-- Email and House -->
+                <!-- <div id="email-house"> -->
+                    <input type="email" class="input" id="input-email" placeholder="Email">
+                    <!-- Select with icons -->
+                    <p>Casa:</p>
+                    <div class="control has-icons-left">
+                        <div class="select">
+                            <select name="house" id="house">
+                                <option value="Gitnória" id="gitnoria-house" selected>Gitnória</option>
+                                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                            </select>
+                            <div class="icon is-small is-left">
+                                <ion-icon name="home"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
             </form>
             <img src="images/trybewarts-colored.svg" alt="Logo da Trybewarts no lado direito da página" id="trybewarts-forms-logo">
         </main>

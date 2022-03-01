@@ -53,3 +53,14 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#name-lastname {
+  display: flex;
+  flex-direction: row;
+}
+
+#email-house {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
