@@ -79,8 +79,6 @@ hr {
 #family {
   display: flex;
   flex-direction: column;
-  
-
 }
 
 #content {
@@ -91,3 +89,4 @@ hr {
 #family-content {
   display: flex;
 }
+
