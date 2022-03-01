@@ -40,8 +40,16 @@
   padding: 0 5px;
 }
 
-.evaluation-form {
+#main-form {
+  display: flex;
+}
+
+#evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
