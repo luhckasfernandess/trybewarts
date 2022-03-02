@@ -48,6 +48,9 @@
   display: flex;
   width: 675px;
   flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  gap: 10px;
 }
 
 #trybewarts-forms-logo {
@@ -57,10 +60,53 @@
 #name-lastname {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 #email-house {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  background-color: black;
+
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+#family-content {
+  display: flex;
+}
+
+.textarea {
+  padding: unset;
+  min-height: unset;
+  display: unset;
+  max-width: unset;
+  min-width: unset;
+  resize: unset;
+  background-color: unset;
+  border-color: unset;
+  border-radius: unset;
+  color: unset;
+  box-shadow: unset;
+  width: unset;
+  border: unset;
+}
+
+.textarea:not( [ rows ] ) {
+  max-height: unset;
+  min-height: unset;
 }
