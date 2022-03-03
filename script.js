@@ -79,3 +79,21 @@ botaoEnviar.addEventListener('click', (e) => {
 
   fomulario();
 });
+
+/*
+  Para adicionar um contador no textarea consultei o StackOverflow
+  Source: https://pt.stackoverflow.com/questions/113089/contador-de-caracteres-digitados-em-um-textarea
+*/
+
+const limite = 500;
+const info = document.getElementById('text-muted');
+
+function verificar() {
+  const qtdcaracteres = this.value.length;
+  const restantes = limite - qtdcaracteres;
+  info.innerHTML = restantes;
+}
+
+const textarea = document.querySelector('.char-count');
+textarea.addEventListener('keyup', verificar);
+// Abençoado StackOverflow
