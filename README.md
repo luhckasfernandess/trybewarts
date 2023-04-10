@@ -16,3 +16,5 @@
 <li>Sistema de autenticação do usuário</li>
 <li>Botão desabilitado enquanto o checkbox de termos de uso não estiver marcado</li>
 </ul>
+<h2>Instruções Para Rodar a Aplicação</h2>
+<p>:point_right: <a href='https://luhckasfernandess.github.io/trybewarts/' alt='link da aplicação online'>CLIQUE AQUI</a> :point_left: para ver a aplicação.</p>
