@@ -1,13 +1,18 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
-
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
-
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h1>Boas Vindas ao Repositório do Projeto Trybewarts Wizarding School! :mage:</h1>
+<h3>Sobre o Projeto</h3>
+<p>Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela.</p>
+<p>O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico!</p>
+<p>Este formulário de feedback foi desenvolvido em dupla utilizando <code>HTML</code>, <code>CSS</code> e <code>Javascript</code>, usando o <code>flexbox</code> do CSS para alinhar os elementos na tela, o <code>DOM</code> do Javascript para criar as verificações e a biblioteca <code>Bulma</code> para estilizar o formulário.</p>
+<h2>Habilidades Desenvolvidas</h2>
+<p>Neste projeto eu fui capaz de:</p>
+<ul>
+<li>Criar formulários em HTML;</li>
+<li>Utilizar CSS Flexbox para criar layouts flexíveis;</li>
+<li>Criar regras CSS específicas para serem aplicadas a dispositivos móveis;</li>
+<li>Construir páginas que alteram o seu layout de acordo com a orientação da tela;</li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>Sistema de autenticação do usuário</li>
+<li>Botão desabilitado enquanto o checkbox de termos de uso não estiver marcado</li>
+</ul>
